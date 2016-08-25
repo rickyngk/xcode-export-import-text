@@ -9,12 +9,12 @@ Export all localization texts of XCode project to excel then import again after 
 - xlrd: https://pypi.python.org/pypi/xlrd
 
 ## Export to excel
-- Update path in export-text.py `os.walk('./../../PopsKids/')`
+- Update path in export-text.py: `os.walk('./')`
 - Run: `python export-text.py`
 
 ## Import from excel
 - **IMPORTANT**: always backup your project before running this script
 - Use result of exporting process `lang.xlsx`
 - Correct your copy as need
-- Update path in import-text.py `os.walk('./../../PopsKids/')`
+- Update path in import-text.py: `os.walk('./')`
 - Run: `python import-text.py`
