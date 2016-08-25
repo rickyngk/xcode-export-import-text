@@ -6,7 +6,7 @@ import codecs
 texts = {}
 docs = {}
 
-for root, dirnames, filenames in os.walk('./../../PopsKids/'):
+for root, dirnames, filenames in os.walk('./'):
     for filename in fnmatch.filter(filenames, '*.strings'):
         dirs = root.split("/")
         lang = dirs[len(dirs)-1]
