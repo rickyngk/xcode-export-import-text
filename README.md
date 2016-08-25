@@ -1,5 +1,5 @@
 # XCode exporting/importing text (strings file) tool
-Export all localization text of XCode project to excel then import again after correcting 
+Export all localization texts of XCode project to excel then import again after correcting 
 
 **DISCLAIMER:** This project is a side project for specific purpose, so I did not optimize yet. Use it at your own risk!
 
